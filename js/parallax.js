@@ -109,8 +109,8 @@ function redrawDotNav(){
 var section4Top =  $('#ten').offset().top - (($('#eleven').offset().top - $('#ten').offset().top) / 2);
 var section5Top =  $('#eleven').offset().top - (($('#twelve').offset().top - $('#eleven').offset().top) / 2);
 var section6Top =  $('#twelve').offset().top - (($('#thirteen').offset().top - $('#twelve').offset().top) / 2);
-var section7Top =  $('#thirteen').offset().top - (($('#thirteen').offset().top - $('#twelve').offset().top) / 2);
-// var section8Top =  $('#maybe').offset().top - (($(document).height() - $('#maybe').offset().top) / 2);
+// var section7Top =  $('#thirteen').offset().top - (($('#thirteen').offset().top - $('#twelve').offset().top) / 2);
+ var section7Top =  $('#thirteen').offset().top - (($(document).height() - $('#twelve').offset().top) / 2);
 ;
 
 
@@ -125,12 +125,13 @@ var section7Top =  $('#thirteen').offset().top - (($('#thirteen').offset().top -
 		$('nav#primary a.eleven').addClass('active');
 	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
 		$('nav#primary a.twelve').addClass('active');
-	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section7Top){
+	 }
+	// else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section7Top){
+	// 	$('nav#primary a.thirteen').addClass('active');
+	// }
+	else if ($(document).scrollTop() >= section6Top){
 		$('nav#primary a.thirteen').addClass('active');
 	}
-	// else if ($(document).scrollTop() >= section8Top){
-	// 	$('nav#primary a.eight').addClass('active');
-	// }
 
 
 

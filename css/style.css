@@ -87,10 +87,11 @@ p {
 
 
 	footer {
-	    background: #000;
-			color: #FFFFFF;
+	    background: #b5a37d;
+			color: #FFF;
 			font-size: 20px;
-	    height: 50px;
+			text-align: right;
+	    height: 40px;
 	    position: fixed;
 	    bottom: 0;
 	    transition: bottom 0.05s ease-in-out;
@@ -356,7 +357,7 @@ nav.next-prev {
 	#bg2-1 {
 		position: absolute;
 		top: 162px;
-		left: 200px;
+		left: 400px;
 		}
 	#bg2-2 {
 		position: absolute;
@@ -371,7 +372,7 @@ nav.next-prev {
 	#bg2-4 {
 		position: absolute;
 		top: 1180px;
-		left: 250px;
+		left: 500px;
 		}
 	#bg2-5 {
 		position: absolute;
@@ -390,7 +391,7 @@ nav.next-prev {
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
 	width: 1200px;
-	margin-left: -600px; /* move left by half element's width */
+	margin-left: -800px; /* move left by half element's width */
 	}
 	#bg1-1 {
 		position: absolute;
